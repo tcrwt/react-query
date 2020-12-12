@@ -72,7 +72,7 @@ export default inputSrcs
           terser(),
           size(),
           visualizer({
-            filename: 'stats-react.json',
+            filename: `stats-${file}.json`,
             json: true,
           }),
         ],
